@@ -17,7 +17,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: -10px 0px 0px 0px;
   background-image: url(/images/back2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -40,7 +40,11 @@ body {
 }
 
 #logo {
-  width: 50%;
+  width: 45%;
+}
+.container-logo {
+  display: flex;
+  justify-content: center;
 }
 
 p {
