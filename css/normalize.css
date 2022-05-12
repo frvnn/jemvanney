@@ -21,7 +21,7 @@ body {
   background-image: url(/images/back2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 2000px;
+  background-size: 2200px;
   background-position: 0px -300px;
 }
 
@@ -53,6 +53,11 @@ p {
   text-shadow: 2px 2px 0px #4a4a07;
 }
 
+#logo-pampa {
+  width: 60px;
+  position: relative;
+  top: 5px;
+}
 /* HTML5 display definitions
    ========================================================================== */
 
