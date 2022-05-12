@@ -28,10 +28,17 @@
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .button,
 button {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   text-decoration: none;
   height: 48px;
   text-align: center;
@@ -65,10 +72,14 @@ button:hover,
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
-  padding: 0px 8px 3.5px 0px;
+  padding: 0px 30px 0.5px 21px;
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
+
+}
+
+.button > span {
+  position: relative;
+  left: -7px;
 }
 
 /* Brand Styles
@@ -583,6 +594,16 @@ button:hover,
 .button.button-yt2 {
   color: #000;
   background-color: #E5E576;
+}
+.button.button-yt:hover,
+.button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* YouTube 3*/
+.button.button-yt3 {
+  color: rgb(0, 0, 0);
+  background-color: #e8e2e2;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
