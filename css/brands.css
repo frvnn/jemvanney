@@ -580,10 +580,20 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Spotify */
+.button-spotify2 {
+  color: #1ed760;
+  background-color: #191414;
+}
+.button-spotify2:hover,
+.button-spotify2:focus {
+  filter: brightness(90%);
+}
+
 /* YouTube */
 .button.button-yt {
-  color: #ffffff;
-  background-color: #222207;
+  color: #FF0000;
+  background-color: #282828;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
