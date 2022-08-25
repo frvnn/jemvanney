@@ -18,24 +18,22 @@ html {
 
 body {
   margin: -10px 0px 0px 0px;
-  background-image: url(/images/back2.jpg);
-  background-size: contain;
+  background-image: url(/images/F100.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 2200px;
-  background-position: 0px -300px;
+  background-position: center;
 }
 
 @media only screen and (max-width: 820px) {
   body {
-    background-position: -111px 0px;
-    background-size: 1700px;
+    background-position: center
   }
 }
 
 @media only screen and (max-width: 500px) {
   body {
-    background-position: -418px 0px;
-    background-size: 2000px;
+    background-repeat:no-repeat;
+
   }
 }
 
@@ -50,7 +48,7 @@ body {
 p {
   color: rgb(255, 255, 255);
   background-size: 1370px;
-  text-shadow: 2px 2px 0px #4a4a07;
+  text-shadow: 2px 2px 0px #000000;
 }
 
 #logo-pampa {
